@@ -4,9 +4,9 @@
 \alias{get_vote_info_ListFiles}
 \title{get_vote_info_ListFiles}
 \usage{
-get_vote_info_ListFiles(Working_Directory_Vote,
-                               Working_Directory_voteInfo,
-                               Language)
+get_vote_info_ListFiles(Working_Directory_Vote = "",
+                               Working_Directory_voteInfo = "",
+                               Language = "")
 }
 \arguments{
 \item{Working_Directory_Vote:}{working directory where the XML files are located}

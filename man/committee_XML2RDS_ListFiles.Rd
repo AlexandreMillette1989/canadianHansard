@@ -4,8 +4,8 @@
 \alias{committee_XML2RDS_ListFiles}
 \title{committee_XML2RDS_ListFiles}
 \usage{
-Committee_XML2RDS(WD_PathXML = "",
-                         WD_PathRDS = "")
+committee_XML2RDS_ListFiles(WD_PathXML = "",
+                                   WD_PathRDS = "")
 }
 \arguments{
 \item{WD_PathXML:}{working directory where the XML file is located}

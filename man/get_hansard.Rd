@@ -4,10 +4,10 @@
 \alias{get_hansard}
 \title{get_hansard}
 \usage{
-get_committee(Working_Directory = "",
-                     StartDate = "",
-                     EndDate = "",
-                     Language = "")
+get_hansard(Working_Directory = "",
+                   StartDate = "",
+                   EndDate = "",
+                   Language = "")
 }
 \arguments{
 \item{Working_Directory:}{working directory where the XML files are going to be downloaded}
