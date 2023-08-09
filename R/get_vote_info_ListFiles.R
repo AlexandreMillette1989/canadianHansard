@@ -2,9 +2,9 @@
 #'
 #' @description Loops over the vote directory to download all vote details in a single command
 #'
-#' @usage get_vote_info_ListFiles(Working_Directory_Vote,
-#'                                Working_Directory_voteInfo,
-#'                                Language)
+#' @usage get_vote_info_ListFiles(Working_Directory_Vote = "",
+#'                                Working_Directory_voteInfo = "",
+#'                                Language = "")
 #'
 #' @param Working_Directory_Vote: working directory where the XML files are located
 #'

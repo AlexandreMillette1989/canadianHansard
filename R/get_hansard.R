@@ -2,10 +2,10 @@
 #'
 #' @description This function fetches Hansard data from the House of Commons of Canada website
 #'
-#' @usage get_committee(Working_Directory = "",
-#'                      StartDate = "",
-#'                      EndDate = "",
-#'                      Language = "")
+#' @usage get_hansard(Working_Directory = "",
+#'                    StartDate = "",
+#'                    EndDate = "",
+#'                    Language = "")
 #'
 #' @param Working_Directory: working directory where the XML files are going to be downloaded
 #'
