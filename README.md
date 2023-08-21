@@ -16,7 +16,7 @@ Next, you will be able to import the package directly from GitHub.
 install_github("AlexandreMillette1989/canadianHansard",
                force = TRUE,
                dependencies = TRUE,
-               upgrade = FALSE)
+               upgrade = TRUE)
   
 library(canadianHansard)
 ```
