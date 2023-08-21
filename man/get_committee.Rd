@@ -5,10 +5,10 @@
 \title{get_committee}
 \usage{
 get_committee(Working_Directory = "",
-                     StartDate = "",
-                     EndDate = "",
-                     Language = "",
-                     CommitteeAbbrev = "")
+              StartDate = "",
+              EndDate = "",
+              Language = "",
+              CommitteeAbbrev = "")
 }
 \arguments{
 \item{Working_Directory:}{working directory where the XML files are going to be downloaded}
@@ -23,4 +23,12 @@ get_committee(Working_Directory = "",
 }
 \description{
 This function fetches committees data from the House of Commons of Canada website
+}
+\examples{
+get_committee(Working_Directory = "~/",
+              StartDate = "2023-06-01",
+              EndDate = "2023-06-30",
+              Language = "en",
+              CommitteeAbbrev = "INDU")
+
 }

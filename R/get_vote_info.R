@@ -2,11 +2,12 @@
 #'
 #' @description This gathers vote details for a specific vote into an XML file
 #'
-#' @usage get_vote_info(Working_Directory = "",
-#'                      Language = "",
-#'                      ParliamentNumber = "",
-#'                      SessionNumber = "",
-#'                      DecisionDivisionNumber = "")
+#' @usage
+#' get_vote_info(Working_Directory = "",
+#'               Language = "",
+#'               ParliamentNumber = "",
+#'               SessionNumber = "",
+#'               DecisionDivisionNumber = "")
 #'
 #' @param Working_Directory: working directory where the XML files are being download
 #'
@@ -23,6 +24,13 @@
 #' @import stringr
 #'
 #' @import xml2
+#'
+#' @examples
+#' get_vote_info(Working_Directory = "~/",
+#'               Language = "en",
+#'               ParliamentNumber = "44",
+#'               SessionNumber = "1",
+#'               DecisionDivisionNumber = "400")
 #'
 #' @export
 

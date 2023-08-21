@@ -2,11 +2,12 @@
 #'
 #' @description This function fetches committees data from the House of Commons of Canada website
 #'
-#' @usage get_committee(Working_Directory = "",
-#'                      StartDate = "",
-#'                      EndDate = "",
-#'                      Language = "",
-#'                      CommitteeAbbrev = "")
+#' @usage
+#' get_committee(Working_Directory = "",
+#'               StartDate = "",
+#'               EndDate = "",
+#'               Language = "",
+#'               CommitteeAbbrev = "")
 #'
 #' @param Working_Directory: working directory where the XML files are going to be downloaded
 #'
@@ -23,6 +24,13 @@
 #' @import stringr
 #'
 #' @import xml2
+#'
+#' @examples
+#' get_committee(Working_Directory = "~/",
+#'               StartDate = "2023-06-01",
+#'               EndDate = "2023-06-30",
+#'               Language = "en",
+#'               CommitteeAbbrev = "INDU")
 #'
 #' @export
 

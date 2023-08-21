@@ -5,9 +5,9 @@
 \title{get_hansard}
 \usage{
 get_hansard(Working_Directory = "",
-                   StartDate = "",
-                   EndDate = "",
-                   Language = "")
+            StartDate = "",
+            EndDate = "",
+            Language = "")
 }
 \arguments{
 \item{Working_Directory:}{working directory where the XML files are going to be downloaded}
@@ -20,4 +20,11 @@ get_hansard(Working_Directory = "",
 }
 \description{
 This function fetches Hansard data from the House of Commons of Canada website
+}
+\examples{
+get_hansard(Working_Directory = "~/",
+            StartDate = "2023-06-01",
+            EndDate = "2023-06-30",
+            Language = "en")
+
 }

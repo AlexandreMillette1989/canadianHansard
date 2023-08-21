@@ -2,10 +2,11 @@
 #'
 #' @description This gathers all the votes for a specific Parliament and Session into an XML file
 #'
-#' @usage get_vote(Working_Directory = "",
-#'                 Language = "",
-#'                 ParliamentNumber = "",
-#'                 SessionNumber = "")
+#' @usage
+#' get_vote(Working_Directory = "",
+#'          Language = "",
+#'          ParliamentNumber = "",
+#'          SessionNumber = "")
 #'
 #' @param Working_Directory: working directory where the XML files are being download
 #'
@@ -20,6 +21,12 @@
 #' @import stringr
 #'
 #' @import xml2
+#'
+#' @examples
+#' get_vote(Working_Directory = "~/",
+#'          Language = "en",
+#'          ParliamentNumber = "44",
+#'          SessionNumber = "1")
 #'
 #' @export
 

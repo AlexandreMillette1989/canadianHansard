@@ -4,7 +4,6 @@
 #'
 #' @usage committee_XML2RDS_ListFiles(WD_PathXML = "",
 #'                                    WD_PathRDS = "")
-#'
 #' @param WD_PathXML: working directory where the XML file is located
 #'
 #' @param WD_PathRDS: working directory where the RDS file will be saved

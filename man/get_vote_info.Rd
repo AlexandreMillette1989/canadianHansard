@@ -5,10 +5,10 @@
 \title{get_vote_info}
 \usage{
 get_vote_info(Working_Directory = "",
-                     Language = "",
-                     ParliamentNumber = "",
-                     SessionNumber = "",
-                     DecisionDivisionNumber = "")
+              Language = "",
+              ParliamentNumber = "",
+              SessionNumber = "",
+              DecisionDivisionNumber = "")
 }
 \arguments{
 \item{Working_Directory:}{working directory where the XML files are being download}
@@ -23,4 +23,12 @@ get_vote_info(Working_Directory = "",
 }
 \description{
 This gathers vote details for a specific vote into an XML file
+}
+\examples{
+get_vote_info(Working_Directory = "~/",
+              Language = "en",
+              ParliamentNumber = "44",
+              SessionNumber = "1",
+              DecisionDivisionNumber = "400")
+
 }
