@@ -70,7 +70,7 @@ Par la suite, vous serez en mesure d'importer le package à partir de GitHub.
 install_github("AlexandreMillette1989/canadianHansard",
                force = TRUE,
                dependencies = TRUE,
-               upgrade = FALSE)
+               upgrade = TRUE)
   
 library(canadianHansard)
 ```
