@@ -5,9 +5,9 @@
 \title{hansard_XML2RDS}
 \usage{
 hansard_XML2RDS(filenameXLM = "",
-                       filenameRDS = "",
-                       WD_PathXML = "",
-                       WD_PathRDS = "")
+                filenameRDS = "",
+                WD_PathXML = "",
+                WD_PathRDS = "")
 }
 \arguments{
 \item{filenameXLM:}{filename of the XML file}

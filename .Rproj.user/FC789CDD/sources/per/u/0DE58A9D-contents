@@ -1,0 +1,24 @@
+
+get_vote_info_ListFiles(Working_Directory_Vote = "~/demo_vote/xml/",
+                        Working_Directory_voteInfo = "~/demo_vote_info/xml/",
+                        Language = "en")
+
+
+votes_parliament_session_list$nb_votes = c(190,219,161,1,158,204,760,467,1379,26,185,408)
+
+for(i in 1:dim(votes_parliament_session_list)[1]){
+  for(k in 1:votes_parliament_session_list$nb_votes[i]){
+    get_vote_info(Working_Directory = "~/demo_vote_info/xml/",
+                  Language = "en",
+                  ParliamentNumber = votes_parliament_session_list$parliament[i],
+                  SessionNumber = votes_parliament_session_list$session[i],
+                  DecisionDivisionNumber = k)
+  }
+}
+
+
+vote_info_XML2RDS(XML_WD = "~/demo_vote_info/xml/",
+                  RDS_WD = "~/demo_vote_info/rds/")
+
+compile_RDS_ListFiles(WD_PathRDS = "",
+                      filename = "")

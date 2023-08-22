@@ -5,7 +5,7 @@
 \title{hansard_XML2RDS_ListFiles}
 \usage{
 hansard_XML2RDS_ListFiles(WD_PathXML = "",
-                                 WD_PathRDS = "")
+                          WD_PathRDS = "")
 }
 \arguments{
 \item{WD_PathXML:}{working directory where the XML file is located}

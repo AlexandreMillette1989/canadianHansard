@@ -2,10 +2,10 @@
 #'
 #' @description This function transforms an XML file from a predefine working directory to an RDS file in a selected working directory
 #'
-#' @usage Committee_XML2RDS(filenameXLM = "",
-#'                          filenameRDS = "",
-#'                          WD_PathXML = "",
-#'                          WD_PathRDS = "")
+#' @usage committee_XML2RDS(filenameXLM = "",
+#'                   filenameRDS = "",
+#'                   WD_PathXML = "",
+#'                   WD_PathRDS = "")
 #'
 #' @param filenameXLM: filename of the XML file
 #'
@@ -23,7 +23,7 @@
 #'
 #' @export
 
-Committee_XML2RDS = function(filenameXLM, filenameRDS, WD_PathXML, WD_PathRDS){
+committee_XML2RDS = function(filenameXLM, filenameRDS, WD_PathXML, WD_PathRDS){
 
   ### Import XML data
   setwd(WD_PathXML)

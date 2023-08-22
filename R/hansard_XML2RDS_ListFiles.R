@@ -3,7 +3,7 @@
 #' @description This function transforms all XML files from a predefine working directory to RDS files in a selected working directory
 #'
 #' @usage hansard_XML2RDS_ListFiles(WD_PathXML = "",
-#'                                  WD_PathRDS = "")
+#'                           WD_PathRDS = "")
 #'
 #' @param WD_PathXML: working directory where the XML file is located
 #'

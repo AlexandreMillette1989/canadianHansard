@@ -3,7 +3,7 @@
 #' @description This function compiles all RDS file in a selected working directory to a singular RDS file.
 #'
 #' @usage compile_RDS_ListFiles(WD_PathRDS = "",
-#'                              filename = "")
+#'                       filename = "")
 #'
 #' @param WD_PathRDS: working directory where the RDS files are located
 #'

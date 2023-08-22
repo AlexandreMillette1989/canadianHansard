@@ -5,7 +5,7 @@
 \title{vote_XML2RDS}
 \usage{
 vote_XML2RDS(XML_WD = "",
-                    RDS_WD = "")
+             RDS_WD = "")
 }
 \arguments{
 \item{XML_WD:}{working directory where the XML files are located}

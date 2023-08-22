@@ -3,7 +3,7 @@
 #' @description Transform vote details list from XML files to RDS files
 #'
 #' @usage vote_info_XML2RDS(XML_WD = "",
-#'                          RDS_WD = "")
+#'                   RDS_WD = "")
 #'
 #' @param XML_WD: working directory where the XML files are located
 #'

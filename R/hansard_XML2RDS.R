@@ -3,9 +3,9 @@
 #' @description This function transforms an XML file from a predefine working directory to an RDS file in a selected working directory
 #'
 #' @usage hansard_XML2RDS(filenameXLM = "",
-#'                        filenameRDS = "",
-#'                        WD_PathXML = "",
-#'                        WD_PathRDS = "")
+#'                 filenameRDS = "",
+#'                 WD_PathXML = "",
+#'                 WD_PathRDS = "")
 #'
 #' @param filenameXLM: filename of the XML file
 #'
