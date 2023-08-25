@@ -1,20 +1,3 @@
-#' @title committee_XML2RDS
-#'
-#' @description This function transforms an XML file from a predefine working directory to an RDS file in a selected working directory
-#'
-#' @usage committee_XML2RDS(filenameXLM = "",
-#'                   filenameRDS = "",
-#'                   WD_PathXML = "",
-#'                   WD_PathRDS = "")
-#'
-#' @param filenameXLM: filename of the XML file
-#'
-#' @param filenameRDS: filename of the RDS file
-#'
-#' @param WD_PathXML: working directory where the XML file is located
-#'
-#' @param WD_PathRDS: working directory where the RDS file will be saved
-#'
 #' @import stringi
 #'
 #' @import stringr

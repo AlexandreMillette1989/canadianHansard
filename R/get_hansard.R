@@ -3,10 +3,10 @@
 #' @description This function fetches Hansard data from the House of Commons of Canada website
 #'
 #' @usage
-#' get_hansard(Working_Directory = "",
-#'             StartDate = "",
-#'             EndDate = "",
-#'             Language = "")
+#' get_hansard(Working_Directory = "~/demo_hansard/xml/",
+#'             StartDate = "2023-06-01",
+#'             EndDate = "2023-06-30",
+#'             Language = "en")
 #'
 #' @param Working_Directory: working directory where the XML files are going to be downloaded
 #'
@@ -16,17 +16,17 @@
 #'
 #' @param Language: English or French ("en", "fr")
 #'
+#' @examples
+#' get_hansard(Working_Directory = "~/demo_hansard/xml/",
+#'             StartDate = "2023-06-01",
+#'             EndDate = "2023-06-30",
+#'             Language = "en")
+#'
 #' @import stringi
 #'
 #' @import stringr
 #'
 #' @import xml2
-#'
-#' @examples
-#' get_hansard(Working_Directory = "~/",
-#'             StartDate = "2023-06-01",
-#'             EndDate = "2023-06-30",
-#'             Language = "en")
 #'
 #' @export
 

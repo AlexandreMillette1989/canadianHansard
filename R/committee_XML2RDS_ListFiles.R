@@ -2,11 +2,17 @@
 #'
 #' @description This function transforms all XML files from a predefine working directory to RDS files in a selected working directory
 #'
-#' @usage committee_XML2RDS_ListFiles(WD_PathXML = "",
-#'                             WD_PathRDS = "")
+#' @usage
+#' committee_XML2RDS_ListFiles(WD_PathXML = "~/demo_committee/xml/",
+#'                             WD_PathRDS = "~/demo_committee/rds/")
+#'
 #' @param WD_PathXML: working directory where the XML file is located
 #'
 #' @param WD_PathRDS: working directory where the RDS file will be saved
+#'
+#' @examples
+#' committee_XML2RDS_ListFiles(WD_PathXML = "~/demo_committee/xml/",
+#'                             WD_PathRDS = "~/demo_committee/rds/")
 #'
 #' @import stringi
 #'

@@ -4,10 +4,10 @@
 \alias{get_vote}
 \title{get_vote}
 \usage{
-get_vote(Working_Directory = "",
-         Language = "",
-         ParliamentNumber = "",
-         SessionNumber = "")
+get_vote(Working_Directory = "~/demo_vote/xml/",
+       	Language = "en",
+        	ParliamentNumber = "44",
+        	SessionNumber = "1")
 }
 \arguments{
 \item{Working_Directory:}{working directory where the XML files are being download}
@@ -22,9 +22,9 @@ get_vote(Working_Directory = "",
 This gathers all the votes for a specific Parliament and Session into an XML file
 }
 \examples{
-get_vote(Working_Directory = "~/",
-         Language = "en",
-         ParliamentNumber = "44",
-         SessionNumber = "1")
+get_vote(Working_Directory = "~/demo_vote/xml/",
+       	Language = "en",
+        	ParliamentNumber = "44",
+        	SessionNumber = "1")
 
 }

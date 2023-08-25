@@ -4,8 +4,8 @@
 \alias{committee_XML2RDS_ListFiles}
 \title{committee_XML2RDS_ListFiles}
 \usage{
-committee_XML2RDS_ListFiles(WD_PathXML = "",
-                            WD_PathRDS = "")
+committee_XML2RDS_ListFiles(WD_PathXML = "~/demo_committee/xml/",
+                            WD_PathRDS = "~/demo_committee/rds/")
 }
 \arguments{
 \item{WD_PathXML:}{working directory where the XML file is located}
@@ -14,4 +14,9 @@ committee_XML2RDS_ListFiles(WD_PathXML = "",
 }
 \description{
 This function transforms all XML files from a predefine working directory to RDS files in a selected working directory
+}
+\examples{
+committee_XML2RDS_ListFiles(WD_PathXML = "~/demo_committee/xml/",
+                            WD_PathRDS = "~/demo_committee/rds/")
+
 }

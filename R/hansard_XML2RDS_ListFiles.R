@@ -2,12 +2,17 @@
 #'
 #' @description This function transforms all XML files from a predefine working directory to RDS files in a selected working directory
 #'
-#' @usage hansard_XML2RDS_ListFiles(WD_PathXML = "",
-#'                           WD_PathRDS = "")
+#' @usage
+#' hansard_XML2RDS_ListFiles(WD_PathXML = "~/demo_hansard/xml/",
+#'                           WD_PathRDS = "~/demo_hansard/rds/")
 #'
 #' @param WD_PathXML: working directory where the XML file is located
 #'
 #' @param WD_PathRDS: working directory where the RDS file will be saved
+#'
+#' @examples
+#' hansard_XML2RDS_ListFiles(WD_PathXML = "~/demo_hansard/xml/",
+#'                           WD_PathRDS = "~/demo_hansard/rds/")
 #'
 #' @import stringi
 #'

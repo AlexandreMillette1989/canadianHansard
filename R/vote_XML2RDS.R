@@ -2,12 +2,17 @@
 #'
 #' @description Transform vote list from XML files to RDS files
 #'
-#' @usage vote_XML2RDS(XML_WD = "",
-#'              RDS_WD = "")
+#' @usage
+#' vote_XML2RDS(XML_WD = "~/demo_vote/xml/",
+#'              RDS_WD = "~/demo_vote/rds/")
 #'
 #' @param XML_WD: working directory where the XML files are located
 #'
 #' @param RDS_WD: working directory where the RDS files are going to be exported
+#'
+#' @examples
+#' vote_XML2RDS(XML_WD = "~/demo_vote/xml/",
+#'              RDS_WD = "~/demo_vote/rds/")
 #'
 #' @import stringi
 #'

@@ -1,11 +1,3 @@
-#' @title vote_info_cleaning
-#'
-#' @description Cleans the XML nodes in preparation to RDS conversion
-#'
-#' @usage vote_info_cleaning(xml_database = "")
-#'
-#' @param xml_database: XML file
-#'
 #' @import stringi
 #'
 #' @import stringr

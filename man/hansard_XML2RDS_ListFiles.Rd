@@ -4,8 +4,8 @@
 \alias{hansard_XML2RDS_ListFiles}
 \title{hansard_XML2RDS_ListFiles}
 \usage{
-hansard_XML2RDS_ListFiles(WD_PathXML = "",
-                          WD_PathRDS = "")
+hansard_XML2RDS_ListFiles(WD_PathXML = "~/demo_hansard/xml/",
+                          WD_PathRDS = "~/demo_hansard/rds/")
 }
 \arguments{
 \item{WD_PathXML:}{working directory where the XML file is located}
@@ -14,4 +14,9 @@ hansard_XML2RDS_ListFiles(WD_PathXML = "",
 }
 \description{
 This function transforms all XML files from a predefine working directory to RDS files in a selected working directory
+}
+\examples{
+hansard_XML2RDS_ListFiles(WD_PathXML = "~/demo_hansard/xml/",
+                          WD_PathRDS = "~/demo_hansard/rds/")
+
 }

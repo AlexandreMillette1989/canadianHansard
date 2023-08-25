@@ -2,12 +2,17 @@
 #'
 #' @description This function compiles all RDS file in a selected working directory to a singular RDS file.
 #'
-#' @usage compile_RDS_ListFiles(WD_PathRDS = "",
-#'                       filename = "")
+#' @usage
+#' compile_RDS_ListFiles(WD_PathRDS = "~/demo_committee/rds/",
+#'                       filename = "compiled_data")
 #'
 #' @param WD_PathRDS: working directory where the RDS files are located
 #'
 #' @param filename: output filename (singular file)
+#'
+#' @examples
+#' compile_RDS_ListFiles(WD_PathRDS = "~/demo_committee/rds/",
+#'                       filename = "compiled_data")
 #'
 #' @import stringi
 #'

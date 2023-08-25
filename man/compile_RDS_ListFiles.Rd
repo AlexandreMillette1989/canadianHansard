@@ -4,8 +4,8 @@
 \alias{compile_RDS_ListFiles}
 \title{compile_RDS_ListFiles}
 \usage{
-compile_RDS_ListFiles(WD_PathRDS = "",
-                      filename = "")
+compile_RDS_ListFiles(WD_PathRDS = "~/demo_committee/rds/",
+                      filename = "compiled_data")
 }
 \arguments{
 \item{WD_PathRDS:}{working directory where the RDS files are located}
@@ -14,4 +14,9 @@ compile_RDS_ListFiles(WD_PathRDS = "",
 }
 \description{
 This function compiles all RDS file in a selected working directory to a singular RDS file.
+}
+\examples{
+compile_RDS_ListFiles(WD_PathRDS = "~/demo_committee/rds/",
+                      filename = "compiled_data")
+
 }

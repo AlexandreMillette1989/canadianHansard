@@ -4,8 +4,8 @@
 \alias{vote_XML2RDS}
 \title{vote_XML2RDS}
 \usage{
-vote_XML2RDS(XML_WD = "",
-             RDS_WD = "")
+vote_XML2RDS(XML_WD = "~/demo_vote/xml/",
+             RDS_WD = "~/demo_vote/rds/")
 }
 \arguments{
 \item{XML_WD:}{working directory where the XML files are located}
@@ -14,4 +14,9 @@ vote_XML2RDS(XML_WD = "",
 }
 \description{
 Transform vote list from XML files to RDS files
+}
+\examples{
+vote_XML2RDS(XML_WD = "~/demo_vote/xml/",
+             RDS_WD = "~/demo_vote/rds/")
+
 }
