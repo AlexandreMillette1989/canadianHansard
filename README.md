@@ -1,5 +1,7 @@
-Table of Contents
-[English Instructions - Demo](#canadianHansard (English Instructions - Demo))
+# Table of Contents
+- [English Instructions - Demo](#canadianHansard (English Instructions - Demo))
+  - [Gathering Hansard](##Gathering Hansard)
+
 
 # canadianHansard (English Instructions - Demo)
 
