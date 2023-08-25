@@ -1,3 +1,6 @@
+Table of Contents
+[English Instructions - Demo](# canadianHansard (English Instructions - Demo))
+
 # canadianHansard (English Instructions - Demo)
 
 ## Installing the Package and Creating the Folders and Subfolders Structure
