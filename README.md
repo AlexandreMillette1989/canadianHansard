@@ -4,9 +4,9 @@
 To install our package, users must first install the devtools package using the following code:
 
 ```
-install.packages("devtools")
+install.packages("remotes")
   
-library(devtools)
+library(remotes)
 ```
  
 The devtools package allows us to access the install_github function which grants us the ability to import our package straight from the GitHub repository using the subsequent lines:
