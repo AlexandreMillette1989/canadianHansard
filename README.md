@@ -1,4 +1,4 @@
-# The dataset for the demonstration can be found [here](https://drive.google.com/file/d/1f8aln4fevxSvTV1o964Nh5XsYpfi7pbJ/view?usp=sharing)
+# The dataset for the demonstration can be found [here]([https://drive.google.com/file/d/1f8aln4fevxSvTV1o964Nh5XsYpfi7pbJ/view?usp=sharing](https://figshare.com/articles/dataset/demonstration_dataset_rds/25431736))
 # The code to replicate the demonstration can be found [here](https://github.com/AlexandreMillette1989/canadianHansard/blob/main/demonstration_code.R)
 
 # canadianHansard (English Instructions - Demo)
