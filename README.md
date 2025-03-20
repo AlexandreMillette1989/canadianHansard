@@ -1,12 +1,17 @@
+# The entire datasets in both French and English can be found [here](https://labovirtuel.enap.ca/hoc.html)
+
+# The dataset for the demonstration can be found [here](https://figshare.com/articles/dataset/demonstration_dataset_rds/25431736)
+# The code to replicate the demonstration can be found [here](https://github.com/AlexandreMillette1989/canadianHansard/blob/main/demonstration_code.R)
+
 # canadianHansard (English Instructions - Demo)
 
 ## Installing the Package and Creating the Folders and Subfolders Structure
 To install our package, users must first install the devtools package using the following code:
 
 ```
-install.packages("devtools")
+install.packages("remotes")
   
-library(devtools)
+library(remotes)
 ```
  
 The devtools package allows us to access the install_github function which grants us the ability to import our package straight from the GitHub repository using the subsequent lines:
